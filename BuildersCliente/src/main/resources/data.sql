@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS cliente;
+
+CREATE TABLE cliente (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  nome VARCHAR(50) NOT NULL,
+  idade INT NOT NULL
+);
